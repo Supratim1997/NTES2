@@ -17,7 +17,8 @@
     <string name="place_period">Place/Period</string>
     <string name="training_name">Training Name</string>
     <string name="select_division">Select A Division</string>
-    <string name="select_training_center" >Select a Training Center</string>
+    <string name="select_training_center">Select a Training Center</string>
     <string name="south_eastern_railway">South Eastern Railway</string>
     <string name="back">BACK</string>
+    <string name="Individual_Training">Individual Training</string>
 </resources>

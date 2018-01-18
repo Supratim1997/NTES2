@@ -22,9 +22,19 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".SecondActivity"
             android:label="SERLY" />
-        <activity android:name=".output_activity"></activity>
+        <activity android:name=".output_activity" />
+        <activity android:name=".training_second"></activity>
     </application>
 
 </manifest>

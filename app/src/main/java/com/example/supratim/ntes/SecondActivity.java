@@ -144,7 +144,7 @@ public class SecondActivity extends AppCompatActivity {
         }}
 
     public void next_page2(View v) {
-        Intent intent = new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this,training_second.class);
         startActivity(intent);
     }
     private void getJSON(final String urlWebService) {
