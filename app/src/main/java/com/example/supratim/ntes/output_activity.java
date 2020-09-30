@@ -36,19 +36,7 @@ public class output_activity extends AppCompatActivity {
     String id2=sc.getValue2();
     String id3=sc.getValue3();
 */
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-       // Toast.makeText(getApplicationContext(), ((id1.concat(id2)).concat(id3)), Toast.LENGTH_SHORT).show();
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_output_activity);
-        tabLay=findViewById(R.id.tablay);
-        button = findViewById(R.id.back);
-        button.setOnClickListener(new View.OnClickListener(){
-            public void onClick (View v){
-                next_page(v);
-            }
-        } );
-        fillspin();
+   
 
 
        /* Toast.makeText(getApplicationContext(), S, Toast.LENGTH_SHORT).show();
